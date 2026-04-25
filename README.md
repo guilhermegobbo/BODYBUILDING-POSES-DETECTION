@@ -1,9 +1,9 @@
 # BODYBUILDING-POSES-DETECTION
 
-This is just a fun project that I made to predict whether bodybuilders are doing the correct poses in the category (just double biceps so far).
+This is just a fun project I built to predict whether bodybuilders are performing poses correctly — right now it only supports the double biceps pose.
 
-It can extend to a world where this technology is on all gym mirrors and "normal" people can pose in front of them, and the results are shown at the same time.
+It could easily evolve into something bigger. Imagine this kind of technology built into gym mirrors, where everyday people can strike a pose and get real-time feedback on their form.
 
-OpenCV and MediaPipe give us the power to explore the world of computer vision, but we can also do it with segmentation, for example. It's that thing: "GIVE ME 10,000 LABELED IMAGES, AND WE'LL DISCUSS FURTHER."
+With tools like OpenCV and MediaPipe, there’s a lot we can explore in computer vision. Segmentation using U-net is another option, but it’s very challenging to annotate enough video data to achieve high accuracy.
 
 ![image](https://github.com/guilhermegobbo/BODYBUILDING-POSES-DETECTION/assets/136920721/83b60d9b-c0a2-4e14-af8d-001431641424)
